@@ -57,11 +57,11 @@ public class MainController {
         if(computerScience.isSelected()){
             comboBox.getItems().clear();
             comboBox.getItems().addAll("Java", "C#", "Angular");
-            comboBox.setValue("Java");
+            comboBox.setValue("");
         } else {
             comboBox.getItems().clear();
             comboBox.getItems().addAll("Accountant", "Economics", "Finance");
-            comboBox.setValue("Accountant");
+            comboBox.setValue("");
         }
         listBox.getItems().clear();
     }
